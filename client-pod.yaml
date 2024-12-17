@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: client-pod
   labels:
-    name: web
+    app.kubernetes.io/name: web
 spec:
   containers:
   - name: client
